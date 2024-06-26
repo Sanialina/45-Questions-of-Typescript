@@ -2,18 +2,23 @@
 __________________________________________________________________________________________________________________________
 
 
-/*Q2: Question 2:** Personal Message: Store a person’s name in a variable and print 
+/*---------------------------------------------Question No 2 ------------------------------------------------------------
+Q2: Question 2:** Personal Message: Store a person’s name in a variable and print 
 a message to them, like “Hello Asharib, would you like to learn some TypeScript today?”
- Q2 */
+ 
+  ---------------------------------------------Answer-------------------------------------------------------------------*/
 
  let message="Sania";
  console.log(`Hello ${message} would you like to learn some Typescript today?`);
  
  /*_________________________________________________________________________________________________________________________
 
- *Question 3:** Name Cases: Store a person’s name in a variable, and then print that 
+ *----------------------------------------------Question No 3--------------------------------------------------------------:** 
+ 
+ Name Cases: Store a person’s name in a variable, and then print that 
  person’s name in lowercase, uppercase, and titlecase.
- Q3: */
+ 
+ -----------------------------------------------Answer----------------------------------------------------------------------- */
  
  let MyName:string="Sania"
  console.log(MyName.toUpperCase());
@@ -22,31 +27,38 @@ a message to them, like “Hello Asharib, would you like to learn some TypeScrip
  
  /*_________________________________________________________________________________________________________________________
  
- *Question 4:** Famous Quote: Find a quote from a famous person you admire. 
+ *-------------------------------------------------------Question No 4:------------------------------------------------------** 
+ 
+ Famous Quote: Find a quote from a famous person you admire. 
   * Print the quote and the name of its author. Your output should look something like the following, 
   * including the quotation marks:
  "Albert Einstein once said, “A person who never made a mistake never tried anything new.”"
- Q4: */
+ 
+ --------------------------------------------------------Answer-------------------------------------------------------------------- */
  
  console.log('Audrey Hepburn once said, "Nothing is Impossible itself says I"M Possible!"');
  
  /* ____________________________________________________________________________________________________________________________
  
- Question 5:** Famous Quote 2: Repeat Exercise 1, but this time store the famous person’s name 
+----------------------------------------------------- Question No 5:-----------------------------------------------------------**
+
+Famous Quote 2: Repeat Exercise 1, but this time store the famous person’s name 
  in a variable called famous_person. Then compose your message and store it in a new variable 
  called message. Print your message.
- Q5: */
+ ------------------------------------------------------Answer----------------------------------------------------------------------- */
  
  let famousPerson="Audrey Hepburn"
  console.log(`${famousPerson} once said, "Nothing is Impossible itself says I'M Possible!"`);
  
- /*_______________________________________________________________________________________________________________________________6
+ /*_______________________________________________________________________________________________________________________________
  
- Question 6:** Stripping Names: Store a person’s name, and include some whitespace characters
+ -----------------------------------------------------------Question 6------------------------------------------------------------
+ 
+ ** Stripping Names: Store a person’s name, and include some whitespace characters
   at the beginning and end of the name. Use "\t" (tab) and "\n" (new line) at least once.
   Print the name once, so the whitespace around the name is displayed. Then print the name
    after stripping the white spaces.
-   Q6: */
+   ------------------------------------------------------------Answer------------------------------------------------------------------ */
  
    let strippingName= "\t\n Sania \n\t"
    console.log(strippingName);
@@ -54,7 +66,8 @@ a message to them, like “Hello Asharib, would you like to learn some TypeScrip
  
    /*____________________________________________________________________________________________________________________________________________*/
 
-   /* Q7:
+   /*---------------------------------------------------------------Question No Q7:-----------------------------------------------------------------
+   
 Number Eight: Write addition, subtraction, multiplication, and division 
 operations that each result in the number 
 8, Be sure to enclose your operations in print statements to see the results.
@@ -66,29 +79,36 @@ console.log(5 + 3)
 Your output should simply be four lines with the number 8 appearing once on each line.
 */
 
-//                                   Answer
+//   ------------------------------------------------------------------Answer-----------------------------------------------------------------------
+
 console.log(6+2);
 console.log(12-4);
 console.log(4*2);
 console.log(16/2);
+/*_______________________________________________________________________________________________________________________________________________________________
 
-/* Q9:
+----------------------------------------------------------------Question No Q9---------------------------------------------------------------------------------
+
 Favorite Number: Store your favorite number in a variable.
  Then, using that variable, create a message that reveals your favorite number.
   Print that message.*/
 
-  //                         Answer
+  //---------------------------------------------------------Answer-----------------------------------------------------------------------------------
+
   let favouriteNumber=7
   console.log(`My favourite number is ${favouriteNumber}`);
 
-  /* Q10:
+  /*______________________________________________________________________________________________________________________________________________________________________
+  
+  ----------------------------------------------------------Question No Q10:----------------------------------------------------------------------------------------------
     Adding Comments:
    Choose two of the programs you’ve written,and add at least one comment to each. 
     If you don’t have anything specific to write because your programs are too simple
      at this point, just add your name and the current date at the top of each program file. 
      Then write one sentence describing what the program does.*/
 
-     //                    Answer
+     //----------------------------------------------------------Answer----------------------------------------------------------------------------------------
+
 // Comments in Typescript are annotations within the code used for documentation or
 // to temporarily disable parts of it , and they are ignored by the compiler during code execution
 
@@ -107,24 +127,32 @@ Favorite Number: Store your favorite number in a variable.
  console.log(`Hello ${message1} would you like to learn some Typescript today?`);
  // here we print a message to that person
 
- /* Q11 
+ /*_________________________________________________________________________________________________________________________________________________________
+ 
+ ---------------------------------------------------------Question No Q11-----------------------------------------------------------------------------------
+ 
  Names: Store the names of a few of your friends in a array called names.
   Print each person’s name by accessing each element in the list, one at a time.*/
  
- //                      Answer
-  let names=["Sania", "Hamza", "Ameen", "Mariam"]
+ //-------------------------------------------------------------- Answer-----------------------------------------------------------------------------------
+
+let names=["Sania", "Hamza", "Ameen", "Mariam"]
  console.log(names[0]);
  console.log(names[1]);
  console.log(names[2]);
  console.log(names[3]);
  
-/* Q12
+/*_______________________________________________________________________________________________________________________________________________________________________
+
+-------------------------------------------------------------------Question No Q12-----------------------------------------------------------------------
+
 Greetings: Start with the array you used in Exercise 11,
  but instead of just printing each person’s name, print a message to them. 
  The text of each message should be the same, but each message should be personalized with 
  the person’s name.*/
 
- //            Answer
+ //--------------------------------------------------------------Answer----------------------------------------------------------------------------------
+
  let PersonNames=["Sania", "Hamza", "Ameen", "Mariam"]
  console.log(`Hello ${PersonNames[0]}, How are you? I hope you are doing good`);
  console.log(`Hello ${PersonNames[1]}, How are you? I hope you are doing good`);
@@ -134,23 +162,29 @@ Greetings: Start with the array you used in Exercise 11,
 /*________________________________________________________________________________________________________________________________*/
 
 
-/*  Q13
+/* --------------------------------------------------------Questionj No Q13------------------------------------------------------------------------------
+
 Your Own Array: Think of your favorite mode of transportation, 
 such as a motorcycle or a car, and make a list that stores several examples.
  Use your list to print a series of statements about these items,
  such as “I would like to own a Honda motorcycle.” 
-              Answer             */
-              let transportationMode = ["Toyota Corolla", "Land Cruiser Prado", "SUV"];
+   
+ ----------------------------------------------------------------Answer-------------------------------------------------------------------------------------*/
+
+let transportationMode = ["Toyota Corolla", "Land Cruiser Prado", "SUV"];
               transportationMode.forEach((Mode) =>
                 console.log(`I would like to buy a ${Mode}`)
               );
               console.log(`But ${transportationMode[1]} is my Dream Car`);
-              
-              /* Q14
-              Guest List: If you could invite anyone, living or deceased, to dinner,
-               who would you invite? Make a list that includes at least three people you’d like to invite to dinner.
-                Then use your list to print a message to each person, inviting them to dinner.
-                                                Answer              */
+            
+/*___________________________________________________________________________________________________________________________________________________________________________
+
+------------------------------------------------------------Question No Q14--------------------------------------------------------------------------------------------------
+             
+ Guest List: If you could invite anyone, living or deceased, to dinner,
+ who would you invite? Make a list that includes at least three people you’d like to invite to dinner.
+ Then use your list to print a message to each person, inviting them to dinner.
+ ------------------------------------------------------------- Answer --------------------------------------------------------------------------------------------------------             */
               
                let GuestList = ["Zainab", "Sonia", "Shaista"];
               GuestList.forEach((invitation) =>
@@ -158,7 +192,10 @@ such as a motorcycle or a car, and make a list that stores several examples.
                   How about joining me for a delicious meal this "Saturday" at "8 PM" at "Kababist". Let me know if you're free!`)
               );
               
-              /*           Q15
+              /*_________________________________________________________________________________________________________________________________________________________________________________
+              
+              -----------------------------------------------------------Question No Q15---------------------------------------------------------------------------------------------------------
+              
               Changing Guest List: You just heard that one of your guests can’t make the dinner, 
               so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
               • Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
@@ -167,7 +204,7 @@ such as a motorcycle or a car, and make a list that stores several examples.
               
               • Print a second set of invitation messages, one for each person who is still in your list.
               
-                                  Answer                                     */
+              -------------------------------------------------------------------Answer-------------------------------------------------------------------------------------------------*/
               
                let newGuestList = ["Zainab", "Sonia", "Shaista"];
               
@@ -213,7 +250,9 @@ such as a motorcycle or a car, and make a list that stores several examples.
                   How about joining me for a delicious meal this "Saturday" at "8 PM" at "Kababist". Let me know if you're free!`)
               );
               
-              /*           Q17
+              /*______________________________________________________________________________________________________________________________________________________________________________________    
+              
+              --------------------------------------------------------------Question No Q17--------------------------------------------------------------------------------------------------------------------
               
               Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, 
               and you have space for only two guests.
@@ -228,8 +267,8 @@ such as a motorcycle or a car, and make a list that stores several examples.
               
               • Remove the last two names from your list, so you have an empty list. Print your list to make sure 
               you actually have an empty list at the end of your program.
-               
-                                                       Answer                        */
+          
+          ---------------------------------------------------Answer -------------------------------------------------------------------------------------------------------*/
               
                 let shrinkGuestList = ["Zainab", "Sonia", "Shaista"];
               
@@ -263,10 +302,10 @@ such as a motorcycle or a car, and make a list that stores several examples.
               
               console.log(shrinkGuestList,"Empty List"); 
 
-              /*____________________________________________________________________________________________________________________________________*/
+              /*____________________________________________________________________________________________________________________________________
 
 
-              /*               Question 18
+              ------------------------------------------------------- Question 18----------------------------------------------------------------------------
 
 18: Seeing the World: Think of at least five places in the world you’d like to visit.
 • Store the locations in a array. Make sure the array is not in alphabetical order.
@@ -289,7 +328,7 @@ such as a motorcycle or a car, and make a list that stores several examples.
 
 • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
-*************************** Answer ******************************/
+   ************************************************************* Answer ***********************************************************************/
 
 let favouritePlaces=["Switzerland", "Maldives", "Norway","Phuket","Bali" ]
 console.log("Orignal Order", favouritePlaces)
@@ -312,7 +351,7 @@ console.log("orginal array in reversed order", favouritePlaces.reverse())
 
 /*_____________________________________________________________________________________________________________________
 
-************************************* Q19 *************************************
+***************************************************Question No  19 ********************************************************************************
 
 Dinner Guests: Working with one of the programs from Exercises 14 through 18, 
 print a message indicating the number of people you are inviting to dinner.
@@ -327,13 +366,13 @@ console.log(`I am  inviting ${lengthofList} guests to dinner`)
 
 /*______________________________________________________________________________________________________________
 
-*************************** Q20 *******************************
+************************************************* Question No 20 *************************************************************************
 
 Think of something you could store in a array. For example, you could make a list of mountains, 
 rivers, countries, cities, languages, or anything else you’d like.
  Write a program that creates a list containing these items.
 
- ***************************** Answer ************************/
+ ************************************************************ Answer ********************************************************************************/
 
  let listofRivers=["Indus", "Jhelum", "Chenab","Sutlej", "Ravi"]
  console.log("List of Rivers")
@@ -342,12 +381,12 @@ rivers, countries, cities, languages, or anything else you’d like.
 /*___________________________________________________________________________________________________________________________________*/
 
 
-/**************** Question No 21 ********************
+/****************************************************************** Question No 21 *****************************************************************************************
  
  They think of something you could store in a TypeScript Object.
  Write a program that creates Objects containing these items.
  
- ******************** Answer *************************/
+ *************************************************************************** Answer *********************************************************************/
 
  type person = {
     name:  string;
@@ -361,15 +400,15 @@ gender: "female"
 }
 console.log(person)
 
-/* ------------------------------------------------------------------------
+/* ------------------------------------------------------------------------------------------------------------------------------------------
 
-******************* Question No 22 **********************
+****************************************************************** Question No 22 **********************************************************
 
 Intentional Error: If you haven’t received an array index error in one of your programs yet, 
 try to make one happen. Change an index in one of your programs to produce an index error.
 Make sure you correct the error before closing the program.
 
-*********************** Answer ************************/
+************************************************************************* Answer ****************************************************************/
 
 let fruits =["Strawberry", "Grapes", "Cherry", "Kiwi", "Pineapple"]
 
@@ -379,9 +418,9 @@ console.log(fruits[6])
 // error removed
 console.log(fruits[4])
 
-/* ------------------------------------------------------------------------------
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-******************************* Question No 23 *******************************
+********************************************************************* Question No 23 ****************************************************************
 
 Conditional Tests: Write a series of conditional tests. 
 Print a statement describing each test and your prediction for the results of each test.
@@ -397,7 +436,7 @@ console.log(car == 'subaru')
 
 • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 
-******************************* Answer *************************************/
+*********************************************************************** Answer ****************************************************************************/
 
 
 let season = "summer"
